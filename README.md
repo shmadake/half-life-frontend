@@ -2,7 +2,7 @@
 
 A spaced-repetition learning tracker. Log what you've learned, and HalfLife tells you exactly when it's about to fade from memory — so you can revise it before it does.
 
-**Live demo:** https://half-life-frontend.vercel.app
+**Live demo:** https://shmadake-half-life.vercel.app
 
 ## Features
 
