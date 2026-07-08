@@ -44,7 +44,19 @@ function Register() {
         </button>
       </form>
 
-      {error && <p className="text-fade text-sm mt-3">{error}</p>}
+      {error && (
+        <p className="text-fade text-sm mt-3">
+          {error}
+          {error.toLowerCase().includes("log in") && (
+            <>
+              {" "}
+              <Link to="/login" className="text-fresh hover:underline">
+                Go to login
+              </Link>
+            </>
+          )}
+        </p>
+      )}
 
       <p className="text-muted text-sm mt-6">
         Already have an account?{" "}
